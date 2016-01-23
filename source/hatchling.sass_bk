@@ -1,0 +1,323 @@
+
+/*----Hatchling-----*/
+//fonts
+$font-family-primary:		Merriweather, 'Helvetica Neue', Arial, sans-serif
+$font-family-secondary: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+
+//colors
+$color-primary: #FFCC22
+$color-primary-darker: #FFAA22
+$color-primary-lighter: #FFEE88
+$color-secondary: #55Bb99
+$color-secondary-darker: #338866
+$color-secondary-lighter: #AADDCC
+$color-success:#669944
+$color-success-darker: #448844
+$color-success-lighter: #77AA55
+$color-danger:#CC4433
+$color-danger-darker:#994433
+$color-danger-lighter:#DD5544
+$color-info:#226688
+$color-info-darker:#005566
+$color-info-lighter:#5599AA
+$color-warning:#FFAA44
+$color-warning-darker:#EE9933
+$color-warning-lighter:#FFBB55
+$color-dark: #444444
+$color-dark-darker: #222222
+$color-dark-lighter: #555555
+$color-light: #CCCCCC
+$color-light-darker: #BBBBBB
+$color-light-lighter: #EEEEEE
+
+//selectors
+$disabled: '&.disabled,&[disabled],fieldset[disabled] &,&.disabled:hover,&[disabled]:hover,fieldset[disabled] &:hover,&.disabled:focus,&[disabled]:focus,fieldset[disabled] &:focus,&.disabled.focus,&[disabled].focus,fieldset[disabled] &.focus,&.disabled:active,&[disabled]:active,&.disabled.active,&[disabled].active,fieldset[disabled] &.active'
+
+//mixins
+=transition ($type, $delay)
+	-webkit-transition: $type $delay
+	-moz-transition: $type $delay
+	transition: $type $delay
+/*---------Beginning of Shared------------*/
+//semantic colors Bootstrap override
+.primary
+	background-color: $color-primary
+	color: $color-dark
+.primary-darker
+	background-color: $color-primary-darker
+	color: $color-dark-darker
+.primary-lighter
+	background-color: $color-primary-lighter
+	color: $color-dark-lighter
+.secondary
+	background-color: $color-secondary
+	color: #fff
+.secondary-darker
+	background-color: $color-secondary-darker
+	color: #fff
+.secondary-lighter
+	background-color: $color-secondary-lighter
+	color: #fff
+.success
+	background-color: $color-success
+	color: #fff
+.success-darker
+	background-color: $color-success-darker
+	color: #fff
+.success-lighter
+	background-color: $color-success-lighter
+	color: #fff
+.danger
+	background-color: $color-danger
+	color: #fff
+.danger-darker
+	background-color: $color-danger-darker
+	color: #fff
+.danger-lighter
+	background-color: $color-danger-lighter
+	color: #fff
+.info
+	background-color: $color-info
+	color: #fff
+.info-darker
+	background-color: $color-info-darker
+	color: #fff
+.info-lighter
+	background-color: $color-info-lighter
+	color: #fff
+.warning
+	background-color: $color-warning
+	color: $color-dark
+.warning-darker
+	background-color: $color-warning-darker
+	color: $color-dark-darker
+.warning-lighter
+	background-color: $color-warning-lighter
+	color: $color-dark-lighter
+.dark
+	background-color: $color-dark
+	color: #fff
+.dark-darker
+	background-color: $color-dark-darker
+	color: #fff
+.dark-lighter
+	background-color: $color-dark-lighter
+	color: #fff
+.light
+	background-color: $color-light
+	color: $color-dark
+.light-darker
+	background-color: $color-light-darker
+	color: $color-dark-darker
+.light-lighter
+	background-color: $color-light-lighter
+	color: $color-dark-lighter
+
+body
+	font-family: $font-family-primary
+	width: 100%
+	height: 100%
+
+hr
+	max-width: 200px
+	border-color: $color-primary
+	border-width: 3px
+
+a
+	+transition(all,.35s)
+	p &
+		color: #0099FF
+		cursor: pointer
+		font-weight: 700
+		padding: .2em .2em .2em .2em
+		text-decoration: underline
+	&:hover,&:active,&:visited:hover
+		background-color: $color-primary
+		color: #fff
+	&:visited
+		color: $color-info-darker
+
+h1,h2,h3,h4,h5,h6
+	font-family: $font-family-primary
+
+p
+	font-family: $font-family-secondary
+	margin-bottom: 20px
+	font-size: 16px
+	line-height: 1.5
+
+section
+	padding: 100px 0
+
+aside
+	padding: 50px 0
+
+//buttons
+.btn
+	border-radius: .5em
+	border: 0
+	font-family: $font-family-primary
+	font-weight: 700
+	text-transform: uppercase
+	margin: .5em
+	+transition(all,.35s)
+	outline: none
+	&:active,&.active,&.active:hover,&:active:hover
+		box-shadow: none
+		outline: none
+	&:focus,&:focus:hover
+		outline: none
+	#{$disabled}
+		box-shadow: none
+		cursor: default
+		outline: none
+.btn-default
+	color: $color-dark
+	background-color: $color-light
+	box-shadow: 0 .3em 0 0 $color-light-darker
+	&:hover,&:focus,&.focus
+		color: $color-dark-lighter
+		background-color: $color-light-lighter
+		box-shadow: 0 .3em 0 0 $color-light-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		color: $color-dark-darker
+		background-color: $color-light-darker
+	#{$disabled}
+		background-color: $color-light-lighter
+.btn-primary
+	color: $color-dark
+	background-color: $color-primary
+	box-shadow: 0 .3em 0 $color-primary-darker
+	&:hover,&:focus,&.focus
+		color: $color-dark-lighter
+		background-color: $color-primary-lighter
+		box-shadow: 0 .3em 0 $color-primary-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		color: $color-dark-darker
+		background-color: $color-primary-darker
+	#{$disabled}
+		background-color: $color-primary-lighter
+.btn-secondary
+	color: #fff
+	background-color: $color-secondary
+	box-shadow: 0 .3em 0 $color-secondary-darker
+	&:hover,&:focus,&.focus
+		color: #fff
+		background-color: $color-secondary-lighter
+		box-shadow: 0 .3em 0 $color-secondary-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		color: #fff
+		background-color: $color-secondary-darker
+	#{$disabled}
+		background-color: $color-secondary-lighter
+.btn-success
+	border-color: $color-success
+	background-color: $color-success
+	box-shadow: 0 .3em 0 $color-success-darker
+	&:hover,&:focus,&.focus
+		border-color: $color-success-lighter
+		background-color: $color-success-lighter
+		box-shadow: 0 .3em 0 $color-success-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		background-color: $color-success-darker
+	#{$disabled}
+		background-color: $color-success-lighter
+
+.btn-info
+	border-color: $color-info
+	background-color: $color-info
+	box-shadow: 0 .3em 0 $color-info-darker
+	&:hover,&:focus,&.focus
+		border-color: $color-info-lighter
+		background-color: $color-info-lighter
+		box-shadow: 0 .3em 0 $color-info-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		background-color: $color-info-darker
+	#{$disabled}
+		background-color: $color-info-lighter
+.btn-warning
+	color: $color-dark
+	border-color: $color-warning
+	background-color: $color-warning
+	box-shadow: 0 .3em 0 $color-warning-darker
+	&:hover,&:focus,&.focus
+		color: $color-dark-lighter
+		border-color: $color-warning-lighter
+		background-color: $color-warning-lighter
+		box-shadow: 0 .3em 0 $color-warning-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		color: $color-dark-darker
+		background-color: $color-warning-darker
+	#{$disabled}
+		background-color: $color-warning-lighter
+.btn-danger
+	border-color: $color-danger
+	background-color: $color-danger
+	box-shadow: 0 .3em 0 $color-danger-darker
+	&:hover,&:focus,&.focus
+		border-color: $color-danger-lighter
+		background-color: $color-danger-lighter
+		box-shadow: 0 .3em 0 $color-danger-darker
+	&:active,&.active,&.active:hover,&:active:hover
+		background-color: $color-danger-darker
+	#{$disabled}
+		background-color: $color-danger-lighter
+
+//labels
+.label
+	cursor: pointer
+	font-family: $font-family-primary
+	border-radius: .5em
+	&:hover
+		opacity: .8
+.label-head
+	border-top-right-radius: 0
+	border-bottom-right-radius: 0
+.label-tail
+	border-top-left-radius: 0
+	border-bottom-left-radius: 0
+
+//switch
+
+.switch-toggle
+	position: absolute
+	margin-left: -99999px
+	visibility: hidden
+	&+label
+		display: block
+		position: relative
+		cursor: pointer
+		user-select: none
+input
+	&.switch-toggle+label
+		padding: 2px
+		width: 60px
+		height: 30px
+		background-color: $color-light-darker
+		border-radius: 60px
+		+transition(background,.35s)
+	&.switch-toggle+label
+		&:before,&:after
+			display: block
+			position: absolute
+			top: 2px
+			left: 2px
+			bottom: 2px
+			content: ""
+		&:before
+			right: 2px
+			background-color: $color-light
+			border-radius: 10em
+			+transition(background,.35s)
+		&:after
+			width: 28px
+			background-color: #fff
+			border-radius: 100%
+			+transition(margin,.35s)
+	&.switch-toggle:checked+label
+		&:before
+			background-color: $color-secondary
+		&:after
+			margin-left: 28px
+
+/*---------End of Shared------------*/
