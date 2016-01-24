@@ -1,0 +1,213 @@
+[{
+    "brand": {
+        "fullname": ["Hatchling Content-View Model", "you can put another version", "maybe a different language", "you don't have to use these though"],
+        "shortname": ["Hatchling"],
+        "logos": {
+            "default": "assets/images/logo-flat.svg",
+            "small": "assets/images/logo-flat.svg",
+            "large": "assets/images/logo-flat.svg",
+            "black": "assets/images/logo-flat.svg",
+            "white": "assets/images/logo-flat.svg",
+            "simple": "assets/images/logo-flat.svg"
+        },
+        "colors": {
+            "brand-primary": "#EFC94C",
+            "brand-secondary": "#45B29D",
+            "brand-success": "#45B29D",
+            "brand-danger": "#DF5A49",
+            "brand-info": "#334D5C",
+            "brand-warning": "#E27A3F"
+        }
+    },
+    "sections": {
+        "home": {
+            "name": ["Home"],
+            "header": ["Hatchling"],
+            "body": ["Add and update content away from HTML like a CMS."],
+            "footer": []
+        },
+        "about": {
+            "name": ["About"],
+            "header": ["What is Hatchling?"],
+            "body": ["Hatchling is a Content-View front end model that separates the content from the look and feel of your website.", "You can use Hatchling to build a CMS without a live database. Your website content is stored in a JSON document and will be injected into HTML at run time via AngularJS. This model allows you to work on content and on layout design separately. You can version control only your content or have multiple languages. You can easily add a product or project without duplicating extra <div> or <li>. Your HTML code becomes simpler and DRYer.", "In the JSON document, content is authored in a clearly structured schema. This schema helps you easily understand and organize your content. Hatchling predefined some common fields that are often used in a small business homepage, a product showcase page or a personal portfolio page. You can also add your own fields upon your need following JSON format.", "Hatchling is created by Cherry Wang. The name is inspired by \"Chocobo Hatchling\", a fictional creature from a video game franchise \"Final Fantasy\". \"Hatchling\" conveys the idea that in the given incubator you can create your very own single page and nurse it to change and grow with ease."],
+            "footer": [],
+            "list": ["Static website", "Powered by AngularJS and JSON", "Clearly structured content template", "Customizable and scalable"]
+        },
+        "features": {
+            "name": ["Features"],
+            "header": ["What's Cool About Hatchling?"],
+            "body": [],
+            "footer": [],
+            "list": [{
+                "header": ["Static"],
+                "body": ["Hatchling makes static webpages. There is no backend or database. Hatchling works on all web hosting platforms."],
+                "images": ["assets/images/features/img-static.png"],
+                "icons": ["fa fa-hdd-o"]
+            }, {
+                "header": ["Seperated"],
+                "body": ["Content is stored and managed in a separate document. You can add, update, remove or version control your content away from the design."],
+                "images": ["assets/images/features/img-seperated.png"],
+                "icons": ["fa fa-file-code-o"]
+            }, {
+                "header": ["Scalable"],
+                "body": ["You can add new content like adding a record in database. You can also add a different version of the same content like in CMS."],
+                "images": ["assets/images/features/img-scalable.png"],
+                "icons": ["fa fa-file-code-o"]
+            }]
+        },
+        "gallery": {
+            "name": ["Gallery"],
+            "header": ["What Can You Hatch?"],
+            "body": ["You can use Hatchling to build single page website like your personal portfolio, a product showcase page or a small business webpage. You can also build a bit more complicated website that have several pages. As long as your website does not rely on a live database, and you do need to update the content at a fair frequency, you can use Hatchling model to keep your design update and content edit workflow simple and clear."],
+            "footer": [],
+            "images": [],
+            "icons": []
+        },
+        "howto":{
+
+        },
+        "contact": {
+            "name":["Contact"],
+            "header":["Let's get in touch!"],
+            "body":["Ready to start your next project with Hatchling? That's great! Drop me a message and I can help you get started!"],
+            "email":["hatchling@catenology.com"]
+        }
+    },
+    "products": [{
+        "category": "Chocobo",
+        "title": ["Flame Hatchling"],
+        "description": ["Not more than a fortnight out of the shell, but his blood already runs Immortal Flames black. Raised by a flame private from an egg found abandoned in the company stables he was charged with cleaning, this adorable fledgling is a symbol of new beginnings for the Immortal Flames."],
+        "featurelist": ["Adorable", "Loyal"],
+        "images": {
+            "thumbnail": "assets/images/products/img-flamehatchling.png",
+            "full": ["assets/images/products/img-flamehatchling.png", "assets/images/products/img-flamehatchling.png", "assets/images/products/img-flamehatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Flame_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Serpent Hatchling"],
+        "description": ["Not more than a fortnight out of the shell, but his blood already runs Twin Adder yellow. Raised by a serpent private from an egg found abandoned in the company stables he was charged with cleaning, this adorable fledgling is a symbol of new beginnings for the Order of the Twin Adder."],
+        "featurelist": ["Adorable", "Loyal"],
+        "images": {
+            "thumbnail": "assets/images/products/img-serpenthatchling.png",
+            "full": ["assets/images/products/img-serpenthatchling.png", "assets/images/products/img-serpenthatchling.png", "assets/images/products/img-serpenthatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Serpent_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Storm Hatchling"],
+        "description": ["Not more than a fortnight out of the shell, but his blood already run Maelstrom red. Till sea swallows all! Raised by a storm private from an egg found abandoned in the company stables he was charged with cleaning, this adorable fledgling is a symbol of new beginning for the mighty Maelstrom."],
+        "featurelist": ["Adorable", "Loyal"],
+        "images": {
+            "thumbnail": "assets/images/products/img-stormhatchling.png",
+            "full": ["assets/images/products/img-princely.png", "assets/images/products/img-stormhatchling.png", "assets/images/products/img-stormhatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Storm_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Heavy Hatchling"],
+        "description": ["Currently, \"baby fat\" is the prevailing excuse for this cherubic chick's gigant-like girth. It would be foolish to believe that a chocobo could achieve this size dining on greens alone, regardless of how many hundreds of bushels were devoured...in a single sitting. Chicken bones found beneath the chick's bedding suggest he may have a taste for his succulent cousins."],
+        "featurelist": ["Fat", "Heavy", "Gluttonous"],
+        "images": {
+            "thumbnail": "assets/images/products/img-heavyhatchling.png",
+            "full": ["assets/images/products/img-heavyhatchling.png", "assets/images/products/img-heavyhatchling.png", "assets/images/products/img-heavyhatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Heavy_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Princely Hatchling"],
+        "description": ["The chocobo who would be king. A thoroughbred descended from the legendary Vellantif, this noble bird of Ishguard seeks a rider who will not sully his family's name."],
+        "featurelist": ["Noble", "Legendary", "Proud"],
+        "images": {
+            "thumbnail": "assets/images/products/img-princelyhatchling.png",
+            "full": ["assets/images/products/img-princelyhatchling.png", "assets/images/products/img-princelyhatchling.png", "assets/images/products/img-princelyhatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Princely_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Wayward Hatchling"],
+        "description": ["Summon your wayward hatchling minion. Until he finds his real mother, you'll have to suffice. Even if this orphaned avian were to stumble across his birth parent, chances are he would not even blink an eye, for it is well documented that immediately after hatching, chocobos recognize the first thing they see as their mother - that being you."],
+        "featurelist": ["Gentle", "Affectionate"],
+        "images": {
+            "thumbnail": "assets/images/products/img-waywardhatchling.png",
+            "full": ["assets/images/products/img-waywardhatchling.png", "assets/images/products/img-waywardhatchling.png", "assets/images/products/img-waywardhatchling.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/Wayward_Hatchling"]
+    }, {
+        "category": "Chocobo",
+        "title": ["Black Chocobo Chick"],
+        "description": ["Rumors about her being able to fly are completely unfounded… or are they? This poor chocobo chick was as yellow as an ear of millioncorn before one day being doused in black ink by a random passerby bedecked in silver accessories. Try as the chocobokeep might, none were able to remove the taint, and thus the realm's first black chocobo was born."],
+        "featurelist": ["Cool", "Unique"],
+        "images": {
+            "thumbnail": "assets/images/products/img-blackchocobochick.png",
+            "full": ["assets/images/products/img-blackchocobochick.png", "assets/images/products/img-blackchocobochick.png", "assets/images/products/img-blackchocobochick.png"]
+        },
+        "links": ["http://ffxiv.consolegameswiki.com/wiki/http://ffxiv.consolegameswiki.com/wiki/Black_Chocobo_Chick"]
+    }],
+    "projects": [{
+        "category": "Website",
+        "title": ["Cherry's Portfolio"],
+        "description": ["This is based on Hatchling."],
+        "tags": ["Web", "Frontend", "Dev"],
+        "date": "October, 2015",
+        "clients": ["Cherry"],
+        "tools": ["HTML", "CSS", "JavaScript", "Sass", "AngularJS", "Bootstrap"],
+        "images": {
+            "thumbnail": "assets/images/projects/img-cherryportfolio.png",
+            "full": ["assets/images/projects/img-cherryportfolio.png", "assets/images/projects/img-cherryportfolio.png", "assets/images/projects/img-cherryportfolio.png"]
+        },
+        "links": {
+            "demo": "http://chryw.catenology.com",
+            "source": "http://chryw.catenology.com"
+        }
+    }, {
+        "category": "Website",
+        "title": ["New Standard Power company website"],
+        "description": ["This is based on Hatchling."],
+        "tags": ["Web", "Frontend", "Dev"],
+        "date": "October, 2015",
+        "clients": ["New Standard Power Technical Co. Ltd"],
+        "tools": ["HTML", "CSS", "JavaScript", "Sass", "AngularJS", "Bootstrap", "Photoshop", "Illustrator"],
+        "images": {
+            "thumbnail": "assets/images/projects/img-newstandardpower.png",
+            "full": ["assets/images/projects/img-newstandardpower.png", "assets/images/projects/img-newstandardpower.png", "assets/images/projects/img-newstandardpower.png"]
+        },
+        "links": {
+            "demo": "http://newstandardpower.com",
+            "source": "http://newstandardpower.com"
+        }
+    }],
+    "humans": [{
+        "name": ["Cherry Wang"],
+        "job": ["Web Developer"],
+        "description": ["Cherry wears multiple hats. During daytime she is a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. She cares about UX Design workflow and information Find-ability. Cherry likes to make information produced and used in an Organized way so it is useful and find-able. When off duty, Cherry freelances on print design, learn new skills. At night, she becomes an Erozean heroine \"Bunny Meowington\" and heals a team of Warriors of Light."],
+        "sociallinks": {
+            "website": "http://chryw.catenology.com",
+            "twitter": "https://twitter.com/chryw",
+            "linkedin": "https://www.linkedin.com/in/cherryw",
+            "github": "https://github.com/hiyuuga/",
+            "codepen": "http://codepen.io/chryw/",
+            "behance": "https://www.behance.net/chryw"
+        },
+        "images": {
+            "avatar": "assets/images/members/img-cherryavatar.png",
+            "bio": "assets/images/members/img-cherrybio.png"
+        }
+    }, {
+        "name": ["Bunny Meowington"],
+        "job": ["Web Developer"],
+        "description": ["Cherry wears multiple hats. During daytime she is a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. She cares about UX Design workflow and information Find-ability. Cherry likes to make information produced and used in an Organized way so it is useful and find-able. When off duty, Cherry freelances on print design, learn new skills. At night, she becomes an Erozean heroine \"Bunny Meowington\" and heals a team of Warriors of Light."],
+        "sociallinks": {
+            "website": "http://chryw.catenology.com",
+            "twitter": "https://twitter.com/chryw",
+            "linkedin": "https://www.linkedin.com/in/cherryw",
+            "github": "https://github.com/hiyuuga/",
+            "codepen": "http://codepen.io/chryw/",
+            "behance": "https://www.behance.net/chryw"
+        },
+        "images": {
+            "avatar": "assets/images/members/img-cherryavatar.png",
+            "bio": "assets/images/members/img-cherrybio.png"
+        }
+    }]
+}]
