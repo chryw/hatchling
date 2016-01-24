@@ -1,4 +1,4 @@
-[{
+[{  "testMessage":"Hello! Data is loaded!",
     "brand": {
         "fullname": ["Hatchling Content-View Model", "you can put another version", "maybe a different language", "you don't have to use these though"],
         "shortname": ["Hatchling"],
@@ -11,12 +11,12 @@
             "simple": "assets/images/logo-flat.svg"
         },
         "colors": {
-            "brand-primary": "#EFC94C",
-            "brand-secondary": "#45B29D",
+            "brand-primary": "#FFAD0F",
+            "brand-secondary": "#11E2F0",
             "brand-success": "#45B29D",
-            "brand-danger": "#DF5A49",
-            "brand-info": "#334D5C",
-            "brand-warning": "#E27A3F"
+            "brand-danger": "#E24A29",
+            "brand-info": "#4A90E2",
+            "brand-warning": "#FFAD0F"
         }
     },
     "sections": {
@@ -29,7 +29,7 @@
         "about": {
             "name": ["About"],
             "header": ["What is Hatchling?"],
-            "body": ["Hatchling is a Content-View front end model that separates the content from the look and feel of your website.", "You can use Hatchling to build a CMS without a live database. Your website content is stored in a JSON document and will be injected into HTML at run time via AngularJS. This model allows you to work on content and on layout design separately. You can version control only your content or have multiple languages. You can easily add a product or project without duplicating extra <div> or <li>. Your HTML code becomes simpler and DRYer.", "In the JSON document, content is authored in a clearly structured schema. This schema helps you easily understand and organize your content. Hatchling predefined some common fields that are often used in a small business homepage, a product showcase page or a personal portfolio page. You can also add your own fields upon your need following JSON format.", "Hatchling is created by Cherry Wang. The name is inspired by \"Chocobo Hatchling\", a fictional creature from a video game franchise \"Final Fantasy\". \"Hatchling\" conveys the idea that in the given incubator you can create your very own single page and nurse it to change and grow with ease."],
+            "body": ["Hatchling is a Content-View front end model that separates the content from the look and feel of your website.", "You can use Hatchling to build a CMS without a live database. Your website content is stored in a JSON document and will be injected into HTML at run time via AngularJS. This model allows you to work on content and on layout design separately. You can version control only your content or have multiple languages. You can easily add a product or project without duplicating extra <div> or <li>. Your HTML code becomes simpler and DRYer.", "In the JSON document, content is authored in a clearly structured schema. This schema helps you easily understand and organize your content. Hatchling predefined some common fields that are often used in a small business homepage, a product showcase page or a personal portfolio page. You can also add your own fields upon your need following JSON format.", "The name is inspired by \"Chocobo Hatchling\", a fictional creature from a video game franchise \"Final Fantasy\". \"Hatchling\" conveys the idea that in the given incubator you can create your very own single page and nurse it to change and grow with ease."],
             "footer": [],
             "list": ["Static website", "Powered by AngularJS and JSON", "Clearly structured content template", "Customizable and scalable"]
         },
@@ -194,20 +194,19 @@
             "bio": "assets/images/members/img-cherrybio.png"
         }
     }, {
-        "name": ["Bunny Meowington"],
+        "name": ["Irene Zhu"],
         "job": ["Web Developer"],
-        "description": ["Cherry wears multiple hats. During daytime she is a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. She cares about UX Design workflow and information Find-ability. Cherry likes to make information produced and used in an Organized way so it is useful and find-able. When off duty, Cherry freelances on print design, learn new skills. At night, she becomes an Erozean heroine \"Bunny Meowington\" and heals a team of Warriors of Light."],
+        "description": ["Irene is a designer who is passionate about design and technology. her specialized field is User Experience design and interaction design. she believes the most important design question to tackle is \"how it should work\". She is good at quickly turning concept/complex business model into wireframes and interactive prototype. Axure, Sketch and Adobe Illustrator are the primary tools she uses. Irene also enjoys working cross-functionally to \"figure things out\", including understanding requirements, communicating design ideas, negotiating and refining features. Irene likes painting, traveling, hiking, photography, Miyazaki movies, Radiolab, non-fiction books, Final Fantasy XIV."],
         "sociallinks": {
-            "website": "http://chryw.catenology.com",
-            "twitter": "https://twitter.com/chryw",
-            "linkedin": "https://www.linkedin.com/in/cherryw",
-            "github": "https://github.com/hiyuuga/",
-            "codepen": "http://codepen.io/chryw/",
-            "behance": "https://www.behance.net/chryw"
+            "website": "http://www.irenezhu.com/",
+            "linkedin": "https://www.linkedin.com/pub/irene-zhu/",
+            "github": "https://github.com/irzzz/",
+            "behance": "https://www.behance.net/irzzz/",
+            "instagram": "https://instagram.com/irzzzzz/"
         },
         "images": {
-            "avatar": "assets/images/members/img-cherryavatar.png",
-            "bio": "assets/images/members/img-cherrybio.png"
+            "avatar": "assets/images/members/img-ireneavatar.png",
+            "bio": "assets/images/members/img-irenebio.png"
         }
     }]
 }]
